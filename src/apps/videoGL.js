@@ -189,8 +189,8 @@ function drawScene() {
     //mvRotate(mousePos.x / 5, [0, 0, -1]);
     //mvRotate(mousePos.y / 5, [1, 0, 0]);
     //mvRotate(80 / 5, [0, 0, -1]);
-    mat4.rotate(mvMatrix, mvMatrix, 80 / 5 * RAD , [0, 0, 1]);
-    mat4.rotate(mvMatrix, mvMatrix, -250 / 5 * RAD , [1, 0, 0]);
+//    mat4.rotate(mvMatrix, mvMatrix, 80 / 5 * RAD , [0, 0, 1]);
+//    mat4.rotate(mvMatrix, mvMatrix, -250 / 5 * RAD , [1, 0, 0]);
 
     gl.bindBuffer(gl.ARRAY_BUFFER, cubeVerticesBuffer);
     gl.vertexAttribPointer(vertexPositionAttribute, 3, gl.FLOAT, false, 0, 0);
