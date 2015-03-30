@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true
+  },
+  "globals": {
+    "window": false,
+    "document": false,
+    "navigator": false,
+    "alert": false,
+    "confirm": false,
+    "prompt": false,
+    "console": false,
+    "_": false
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "no-underscore-dangle": 0
+  }
+}
